@@ -1,0 +1,14 @@
+[02-Jun-2020 10:52:05 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Eliminar.php on line 17
+[02-Jun-2020 11:11:24 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Eliminar.php on line 17
+[02-Jun-2020 11:52:35 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Eliminar.php on line 17
+[06-Jun-2020 12:34:30 America/Chicago] PHP Notice:  Trying to get property of non-object in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Eliminar.php on line 17
+[17-Jun-2020 13:14:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Areas.php:20
+Stack trace:
+#0 /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Areaslista.php(19): Areas->select('select * from a...')
+#1 {main}
+  thrown in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/Areas.php on line 20
+[17-Jun-2020 13:15:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/tipoArea.php:18
+Stack trace:
+#0 /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/listatipo.php(19): tipoarea->select('select * from t...')
+#1 {main}
+  thrown in /home/promozon/public_html/propiedadeslaureth.com/Api/Areas/tipoArea.php on line 18
